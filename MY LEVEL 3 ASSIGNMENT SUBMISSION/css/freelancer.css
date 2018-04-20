@@ -1,0 +1,55 @@
+ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+   font-size: 100%;
+
+  font-family:Georgia;
+    line-height: 1.8;
+  
+   
+}
+
+
+
+
+
+body{margin:5%;
+     }
+
+
+
+
+facebookBtn{
+  background-color:blue;
+  color:white;
+  }
+
+
+.row{
+text-align:center;
+}
+
+
+.heading{
+  text-align:center;
+  background-color:#004d80;
+  color:white;
+  width:80%;
+  margin:auto;
+  font-family:"Cursive"
+}
+
+
+.fbpost{
+  text-align:center;
+  display:none}
+
+
+.clickfbpost{
+ height:100%;
+padding:5px;
+width:40%;
+margin:auto;
+background-color:blue;
+color:yellow}
+
