@@ -1,0 +1,341 @@
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #002e4d;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 24px 16px;
+    padding-left:36px;
+    padding-right:36px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.bgimg-1{
+    background-image: url('https://static1.squarespace.com/static/55a7f129e4b0b299aafc4541/t/56eaf10f9f72662378bc933c/1458237753946/Portfolio-Background.png?format=2500w');
+    height: 100%;
+	width : 100%;
+
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-size: 100% 100%;*/
+	background-size:COVER;
+
+
+}
+/* TEXT WITHIN BACKGROUND IMAGE*/
+.middle{
+  color:#f2f2f2;
+   text-align: center;
+    padding-top: 100px;
+  }
+  /*ABOUT ME SECTION START*/
+.heading1{
+  text-align: center;
+  font-size: 2rem;
+  color:#004080;
+
+}
+
+.div1{
+    width: 80%;
+    height: auto;
+
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+.div2{
+    width: 80%;
+    height: 300px;
+
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#a1{
+
+width:30%;
+
+height:300px;
+float:left;
+}
+#a2{
+
+width:60%;
+
+height:300px;
+float:right;
+font-size: 1.5rem;
+font-family: "URW Chancery L", cursive;
+
+}
+.div3{
+    width: 80%;
+    height: auto;
+
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 2rem;
+    text-align: center;
+}
+.g{
+color:#ac7339;
+}
+.div4{
+    width: 80%;
+    height: auto;
+    background-color:pink ;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.x{
+
+  text-align: center;
+  margin-bottom: 5%;
+  font-size: 2.5rem;
+}
+.div5{
+    width: 80%;
+    height: 300px;
+
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#b1{
+
+width:50%;
+
+height:300px;
+float:left;
+}
+#b2{
+
+width:50%;
+
+height:300px;
+float:right;
+font-size: 1.5rem;
+font-family: "URW Chancery L", cursive;
+}
+
+.div6{
+    width: 80%;
+    height: 300px;
+
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#c1{
+
+width:50%;
+
+height:300px;
+float:right;
+}
+#c2{
+
+width:50%;
+
+height:300px;
+float:left;
+font-size: 1.5rem;
+font-family: "URW Chancery L", cursive;
+}
+.div7{
+    width: 80%;
+    height: 300px;
+
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#d1{
+
+width:50%;
+
+height:300px;
+float:left;
+}
+#d2{
+
+width:50%;
+
+height:300px;
+float:right;
+font-size: 1.5rem;
+font-family: "URW Chancery L", cursive;
+}
+
+.div8{
+    width: 80%;
+    height: 300px;
+
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#e1{
+
+width:50%;
+
+height:300px;
+float:right;
+}
+#e2{
+
+width:50%;
+
+height:300px;
+float:left;
+font-size: 1.5rem;
+font-family: "URW Chancery L", cursive;}
+
+.center{
+  text-align: center;
+  font-size: 2rem;
+  font color:blue;
+}
+
+
+.div9{
+margin-left: 10%;
+width: 80%;
+height: auto;
+background-color:none;
+margin-bottom: 100px;
+}
+#skilllogo{
+width:50%;
+margin-left: 25%;
+height:auto;
+
+}
+.div10{
+width: 80%;
+height:400px;
+background-color: yellow;
+margin-left: 10%;
+
+
+}
+input {
+  width: 80%;
+}
+.footercss1{
+background-color:black;
+width:100%;
+}
+.footercss{
+padding-left: 100px;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+
+
+.a{
+text-align:center;
+}
+
+.d{text-align: center;
+   color:red;}
+
+.contactme{
+ background-color: black;
+ text-align: center;
+ color:white;
+ font-size: 1.5rem;
+ padding-top: 10px;
+}
+
+
+/*media query start for tablet upto mobile*/
+@media only screen and (max-width: 769px) and (min-width: 426px)  {
+
+#a2{
+font-size: 1.2rem;
+
+}
+
+}
+/*media query for phones*/
+@media screen and (max-width: 426px) {
+.div2 {
+  display: flex;
+  flex-direction: column;
+  }
+
+#a1{
+
+width:50%;
+
+margin-left: 25%;
+height:150px;
+margin-bottom: 30px;
+}
+
+#a2{
+
+width:80%;
+
+margin-left: 10%;
+font-size: .8rem;
+font-family: "URW Chancery L", cursive;
+}
+.div2{
+    width: 80%;
+    height: 400px;
+
+    margin-bottom:10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.div3{
+  height: auto;
+  font-size: 1rem;
+  margin-top: 5%
+}
+.a{
+  font-size: 1rem;
+}
+#b1{
+  height: 200px;
+}
+#b2{height: 200px;
+     }
+#c1{height:200px;}
+#c2{height: 200px;
+    }
+#d1{height: 200px;}
+#d2{height: 200px;
+     }
+#e1{height: 200px;}
+#e2{height: 200px;
+     }
+.center{
+  font-size: 1rem;
+}
+.div10{
+  height: 200px;
+}
+}
