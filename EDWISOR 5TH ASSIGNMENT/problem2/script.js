@@ -1,0 +1,21 @@
+$(document).ready(function(){
+    $(".showpopup").click(function(){
+  $(".div1").addClass("important");
+ $(".popupbox").fadeIn(); 
+ $("button").fadeOut();
+ });
+        $(".div3").click(function(){
+  $(".div1").removeClass("important");
+ $(".popupbox").fadeOut(); 
+  $("button").fadeIn();
+ });
+         $(".no").click(function(){
+  $(".div1").removeClass("important");
+ $(".popupbox").fadeOut(); 
+  $("button").fadeIn();
+ });
+
+    $(".Navbar_toggle").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});

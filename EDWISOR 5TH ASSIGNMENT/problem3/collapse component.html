@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script> 
+
+</script>
+
+<style> 
+.abc{
+position:absolute;
+right:10px;
+cursor: pointer;
+font-size:25px;}
+.div1{
+ position:relative;
+  height:50px;
+  width:70%;
+  left:15%;
+  background-color:orange;
+  text-align:center;
+  color:white;
+}
+
+.div2{
+position:relative;
+top:50px;
+width:80%;
+left:10%;}
+
+ #flip1,#flip2 {
+    padding: 5px;
+    text-align: center;
+    background-color: #00e6e6;
+    border: solid 1px #c3c3c3;
+    
+}
+
+#pane1,#pane2 {
+   
+    padding: 50px;
+    display: none;
+    text-align: center;
+    background-color:white;
+    
+    border:1px solid black;
+}
+</style>
+</head>
+<body>
+<div class="div1"><br> COLLAPSE COMPONENT  </div>
+ <div class="div2">
+<div id="flip1">EXAMPLE 1 <i class="abc fa fa-caret-down"></i></div>
+<div id="pane1">Hello world!</div>
+<br>
+<div id="flip2">EXAMPLE 2<i class="abc fa fa-caret-down"></i></div>
+<div id="pane2">Hello world!</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
