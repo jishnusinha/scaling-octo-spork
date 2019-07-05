@@ -1,0 +1,16 @@
+var myObj = [
+  {
+  "id":1,
+  "name":"John",
+  },
+
+  {
+  "id":2,
+  "name":"Kane",
+  },
+  {
+  "id":3,
+  "name":"Rudy",
+  },
+
+]
